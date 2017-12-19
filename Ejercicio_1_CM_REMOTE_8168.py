@@ -21,7 +21,7 @@ def n_elementos_pos(l):
 
 def suma_saltando(l,i,n):
     acum= 0
-    for i in l[i: 3 : n]:
+    for i in l[i: 2 : n]:
         acum += i
     return acum 
 
