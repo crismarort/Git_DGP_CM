@@ -12,7 +12,7 @@ def n_elementos_pos(l):
     acum = 0
     for i in l:
         if i>0 :
-            acum +=2
+            acum +=3
         else:
             acum += 1
     return acum   
