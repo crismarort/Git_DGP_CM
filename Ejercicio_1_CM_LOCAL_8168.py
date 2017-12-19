@@ -12,11 +12,7 @@ def n_elementos_pos(l):
     acum = 0
     for i in l:
         if i>0 :
-<<<<<<< HEAD
-            acum +=3
-=======
             acum +=2
->>>>>>> Cambio Veronica
         else:
             acum += 1
     return acum   
@@ -25,11 +21,7 @@ def n_elementos_pos(l):
 
 def suma_saltando(l,i,n):
     acum= 0
-<<<<<<< HEAD
     for i in l[i: 2 : n]:
-=======
-    for i in l[i: 3 : n]:
->>>>>>> Cambio Veronica
         acum += i
     return acum 
 

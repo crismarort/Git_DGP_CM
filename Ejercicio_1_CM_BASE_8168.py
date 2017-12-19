@@ -12,31 +12,23 @@ def n_elementos_pos(l):
     acum = 0
     for i in l:
         if i>0 :
-<<<<<<< HEAD
-            acum +=3
-=======
-            acum +=2
->>>>>>> Cambio Veronica
+            acum +=1
         else:
-            acum += 1
+            acum += 0
     return acum   
 
 
 
 def suma_saltando(l,i,n):
     acum= 0
-<<<<<<< HEAD
     for i in l[i: 2 : n]:
-=======
-    for i in l[i: 3 : n]:
->>>>>>> Cambio Veronica
         acum += i
     return acum 
 
 
 def divisores(x):
     res= []
-    for i in range(1,x//2):
+    for i in range(1,x+1):
         if x % i== 0:
             res.append(i)
     return res  
